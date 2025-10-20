@@ -7,16 +7,12 @@ import { AboutMe } from "./components/AboutMe";
 import { MonochromeFooter } from "./components/MonochromeFooter";
 import { TransparentNav } from "./components/TransparentNav";
 import { ContactSection } from "./components/ContactSection";
-import { FAQSection } from "./components/FAQSection";
 import { CaseStudiesSection } from "./components/CaseStudiesSection";
 import { ErrorBoundary } from "./components/ErrorBoundary";
 
 export default function App() {
   return (
     <>
-      <title>SEO Sprint in 2 Weeks | Behavioral Nudges + On-Page SEO</title>
-      <meta name="description" content="Ship on-page SEO fixes and behavioral nudges in 2 weeks. One PR. You own the code." />
-      
       <ErrorBoundary>
         <div className="min-h-screen antialiased">
           {/* Transparent Navigation */}
@@ -48,9 +44,6 @@ export default function App() {
             </ErrorBoundary>
             <ErrorBoundary>
               <CaseStudiesSection />
-            </ErrorBoundary>
-            <ErrorBoundary>
-              <FAQSection />
             </ErrorBoundary>
             <ErrorBoundary>
               <ContactSection />

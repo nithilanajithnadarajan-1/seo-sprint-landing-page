@@ -2,7 +2,7 @@ import React from 'react';
 
 export function SemanticContent() {
   return (
-    <section className="semantic-content">
+    <section id="faq" className="semantic-content">
       <div className="content-container">
         <h2>How the SEO sprint works</h2>
         <p>

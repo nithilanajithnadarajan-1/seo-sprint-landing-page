@@ -35,7 +35,7 @@ export class WordPositioning {
     span.style.fontSize = fontSize;
     span.style.transform = 'rotate(0deg)';
     span.style.transformOrigin = 'center';
-    span.style.zIndex = Math.floor(Math.random() * 5) + 1;
+    span.style.zIndex = (Math.floor(Math.random() * 5) + 1).toString();
     
     // Add CSS custom properties for animations
     span.style.setProperty('--rotation', '0deg');
